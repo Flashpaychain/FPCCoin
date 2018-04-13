@@ -1,0 +1,25 @@
+# It is not recommended to modify this file in-place, because it will
+# be overwritten during package upgrades. If you want to add further
+# options or overwrite existing ones then use
+# $ systemctl edit Flashpaychaind.service
+# See "man systemd.service" for details.
+
+# Note that almost all daemon options could be specified in
+# /etc/Flashpaychain/Flashpaychain.conf
+
+[Unit]
+Description=Flashpaychain daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/Flashpaychaind -daemon -conf=/etc/Flashpaychain/Flashpaychain.conf -pid=/run/Flashpaychaind/Flashpaychaind.pid
+# Creates /run/Flashpaychaind owned by Flashpaychain
+RuntimeDirectory=Flashpaychaind
+User=Flashpaychain
+Type=forking
+PIDFile=/run/Flashpaychaind/Flashpaychaind.pid
+Restart=on-failure
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

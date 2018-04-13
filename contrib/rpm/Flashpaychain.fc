@@ -1,0 +1,8 @@
+/usr/bin/Flashpaychain-cli		--	gen_context(system_u:object_r:Flashpaychain_exec_t,s0)
+/usr/sbin/Flashpaychaind		--	gen_context(system_u:object_r:Flashpaychain_exec_t,s0)
+/usr/lib(64)?/Flashpaychain/Flashpaychaind		--	gen_context(system_u:object_r:Flashpaychain_exec_t,s0)
+
+/etc/Flashpaychain(/.*)?		gen_context(system_u:object_r:Flashpaychain_conf_t,s0)
+/var/lib/Flashpaychain(/.*)?		gen_context(system_u:object_r:Flashpaychain_var_lib_t,s0)
+
+(/var)?/run/Flashpaychaind(/.*)?   gen_context(system_u:object_r:Flashpaychain_var_run_t,s0)

@@ -1,0 +1,6 @@
+usr/local/bin/Flashpaychain-qt usr/bin
+share/pixmaps/Flashpaychain32.xpm usr/share/pixmaps
+share/pixmaps/Flashpaychain16.xpm usr/share/pixmaps
+share/pixmaps/Flashpaychain128.png usr/share/pixmaps
+debian/Flashpaychain-qt.desktop usr/share/applications
+debian/Flashpaychain-qt.protocol usr/share/kde4/services/

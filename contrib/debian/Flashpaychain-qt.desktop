@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Flashpaychain Core
+Comment=Connect to the Flashpaychain P2P Network
+Comment[de]=Verbinde mit dem Flashpaychain peer-to-peer Netzwerk
+Comment[fr]=Flashpaychain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Flashpaychain, eşten eşe kriptografik sanal para birimi
+Exec=Flashpaychain-qt %u
+Terminal=false
+Type=Application
+Icon=Flashpaychain128
+MimeType=x-scheme-handler/Flashpaychain;
+Categories=Office;Finance;
+StartupWMClass=Flashpaychain-qt
