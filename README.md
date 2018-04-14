@@ -7,17 +7,12 @@ Flashpaychain Official Development Repo
 
 
 ### What is Flashpaychain?
-[Flashpaychain](https://Flashpaychain.net) (abbreviated PPC), also known as PPCoin and Peer-to-Peer Coin is the first [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) design introducing [proof-of-stake consensus](https://Flashpaychain.net/assets/paper/Flashpaychain-paper.pdf) as a security model, with a combined [proof-of-stake](https://Flashpaychain.net/assets/paper/Flashpaychain-paper.pdf)/[proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) minting system. Flashpaychain is based on [Flashpaychain](https://Flashpaychain.org), while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
+[Flashpaychain](https://Flashpaychain.net) (abbreviated FPC), also known as FPCoin is the first [cryptocurrency] design introducing [proof-of-stake consensus] as a security model, with a combined [proof-of-stake]/[proof-of-work] minting system. Flashpaychain is based on [Flashpaychain, while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
 
 ### Flashpaychain Resources
 * Client and Source:
-[Client Binaries](https://Flashpaychain.net/download),
-[Source Code](https://github.com/Flashpaychain/Flashpaychain)
-* Documentation: [Flashpaychain Whitepaper](https://Flashpaychain.net/whitepaper),
-[Flashpaychain Wiki](https://github.com/Flashpaychain/Flashpaychain/wiki)
+[Source Code](https://github.com/Flashpaychain/FPCCoin)
 * Help: 
-[Forum](https://talk.Flashpaychain.net),
-[Intro & Important Links](https://talk.Flashpaychain.net/t/what-is-Flashpaychain-intro-important-links/2889)
 
 Testing
 -------
@@ -38,7 +33,7 @@ Unit tests can be compiled and run (assuming they weren't disabled in configure)
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [FlashpaychainPullTester](https://github.com/FlashpaychainPullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [FlashpaychainPullTester]
 for the build/test scripts.
 
 ### Manual Quality Assurance (QA) Testing
